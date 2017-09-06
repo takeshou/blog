@@ -8,5 +8,5 @@ permalink: /about/
 
 下記、URLにウェブサイトがあります。
 
-http://plaza.umin.ac.jp/~takeshou/(http://plaza.umin.ac.jp/~takeshou/)
+[http://plaza.umin.ac.jp/~takeshou/](http://plaza.umin.ac.jp/~takeshou/)
 
