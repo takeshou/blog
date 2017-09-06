@@ -1,15 +1,12 @@
 ---
 layout: page
-title: About
+title: About Shouhei Takeuchi
 permalink: /about/
 ---
 
-Some information about you!
+## 竹内昌平について
 
-### More Information
+下記、URLにウェブサイトがあります。
 
-A place to include any other types of information that you'd like to include about yourself.
+http://plaza.umin.ac.jp/~takeshou
 
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
