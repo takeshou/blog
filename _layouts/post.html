@@ -11,7 +11,9 @@ layout: default
 
   <div class="date">
     Written on {{ page.date | date: "%B %e, %Y" }}
-      <nav id="tags">
+  </div>
+
+  <nav id="tags">
   <h2>tags:</h2>
   <ul>
     {% for tag in page.tags %}
@@ -20,7 +22,6 @@ layout: default
   </ul>
 </nav>
 
-  </div>
 
   {% include disqus.html %}
   
