@@ -1,10 +1,8 @@
 ---
 layout: page
-title: About Shouhei Takeuchi
+title: 竹内昌平について
 permalink: /about/
 ---
-
-## 竹内昌平について
 
 下記、URLにウェブサイトがあります。
 
