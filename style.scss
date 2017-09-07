@@ -192,18 +192,27 @@ img {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
+  // color: $darkGray;
+  color: #397BEA;
   cursor: pointer;
   font-family: $helveticaNeue;
-  font-weight: 300;
-  font-size: 28px;
-  letter-spacing: 1px;
+  // font-weight: 300;
+  font-weight: bold;
+  // font-size: 28px;
+  font-size: 36pt;
+  // letter-spacing: 1px;
+  line-height: 44pt;
+  border: solid;
+  border-width: thin 0 thin 0;
 }
 
 .site-description {
   margin: -5px 0 0 0;
   color: $gray;
-  font-size: 16px;
+  // font-size: 16px;
+  font-size: 12pt;
+  line-height: 18pt;
+  text-indent: 1em;
 
   @include mobile {
     margin: 3px 0;
