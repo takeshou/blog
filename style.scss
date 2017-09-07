@@ -77,6 +77,14 @@ a {
   }
 }
 
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: black;
+}
+
 ul, ol {
   margin: 15px 0;
   padding-left: 30px;
