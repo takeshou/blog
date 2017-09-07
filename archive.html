@@ -1,7 +1,5 @@
 ---
-layout: page
-title: 一覧ページ
-permalink: archive.html
+layout: default
 ---
 
 {% for post in site.posts %} {% unless post.next %} {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %} {% capture
