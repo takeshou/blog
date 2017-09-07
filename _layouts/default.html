@@ -28,10 +28,17 @@
           </div>
 
           <nav>
-            <a href="{{ site.baseurl }}/">Blog</a>
-            <a href="{{ site.baseurl }}/archive.html">Archives</a>
-            <a href="{{ site.baseurl }}/tags.html">Tags</a>
-            <a href="{{ site.baseurl }}/about">About</a>
+      <ul>
+        <li><a href="index.html">TOP</a></li>
+        <li><a href="profile.html">プロフィール</a></li>
+        <li><a href="study.html">研究</a></li>
+        <li><a href="lectures.html">教育</a></li>
+        <li><a href="recent.html">近況</a></li>
+        <li><a href="http://d.hatena.ne.jp/takeshou/">メモ</a></li>
+        <li><a href="soft.html">ソフトウェア</a></li>
+        <li><a href="hard.html">ハードウェア</a></li>
+        <li><a href="link.html">リンク</a></li>
+      </ul>
           </nav>
         </header>
       </div>
@@ -39,6 +46,13 @@
 
     <div id="main" role="main" class="container">
       {{ content }}
+    </div>
+
+    <div class="nav">
+                  <a href="{{ site.baseurl }}/">Blog</a>
+                  <a href="{{ site.baseurl }}/archive.html">Archives</a>
+                  <a href="{{ site.baseurl }}/tags.html">Tags</a>
+                  <a href="{{ site.baseurl }}/about">About</a>
     </div>
 
     <div class="wrapper-footer">

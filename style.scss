@@ -220,7 +220,16 @@ img {
   }
 }
 
-nav {
+nav ul{
+  text-align: right;
+}
+
+nav li{
+  display: inline;
+  margin-right: 5px;
+}
+
+.nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
   font-family: $helveticaNeue;
