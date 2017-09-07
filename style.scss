@@ -19,25 +19,27 @@ html {
 
 body {
 	background: $white;
-  font: 18px/1.4 $helvetica;
+  // font: 18px/1.4 $helvetica;
   // color: $darkGray;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .container {
   margin: 0 auto;
-  max-width: 740px;
-  padding: 0 10px;
+  // max-width: 740px;
+  // padding: 0 10px;
   width: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
   // color: $darkerGray;
-  font-weight: bold;
+  // font-weight: bold;
 
-  line-height: 1.7;
-  margin: 1em 0 15px;
-  padding: 0;
+  // line-height: 1.7;
+  // margin: 1em 0 15px;
+  // padding: 0;
 
   @include mobile {
     line-height: 1.4;
@@ -65,8 +67,10 @@ h4 {
 }
 
 p {
-  margin: 15px 0;
-}
+  // margin: 15px 0;
+  font-size: 12pt;
+  line-height: 18pt;
+  text-indent: 1em;}
 
 a {
   // color: $blue;
@@ -124,8 +128,9 @@ img {
 }
 
 .date {
-  font-style: italic;
-  color: $gray;
+  // font-style: italic;
+  color: black;
+  text-align: right;
 }
 
 // Specify the color of the selection
