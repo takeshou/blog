@@ -239,6 +239,17 @@ nav li{
   line-height: 18pt;
 }
 
+ul.memo {
+  text-align: left;
+  list-style: none;
+  margin: 0px;
+}
+
+li.list {
+  display: inline;
+  margin-right: 1em;
+}
+
 .nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
