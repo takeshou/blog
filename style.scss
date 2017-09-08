@@ -33,7 +33,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
+  // font-family: $helveticaNeue;
   // color: $darkerGray;
   // font-weight: bold;
 
@@ -220,7 +220,7 @@ img {
   color: #397BEA;
   background-color: #fafffa;
   cursor: pointer;
-  font-family: $helveticaNeue;
+  // font-family: $helveticaNeue;
   // font-weight: 300;
   font-weight: bold;
   // font-size: 28px;
@@ -266,15 +266,16 @@ li.list {
   margin-right: 1em;
 }
 
-li.post-date {
+.post-date {
   list-style: none;
   font-size: 12pt;
   line-height: 16pt;
 }
+
 .nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $helveticaNeue;
+  // font-family: $helveticaNeue;
   font-size: 18px;
 
   @include mobile {
