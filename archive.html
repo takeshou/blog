@@ -10,9 +10,7 @@ permalink: archive.html
     {% capture month %}{{ post.date | date: '%m' }}{% endcapture %}
     <h2 id="{{year}}{{month}}">{{ year }}/{{ month }}</h2>
     <ul class="posts">
-      <li class="post-date">
-        {{ post.date | date: "%b %d" }} &raquo;
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      <li class="post-date">{{ post.date | date: "%b %d" }} &raquo;<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </li>
       {% else %}
       {% capture month %}{{ post.date | date: '%m' }}{% endcapture %}
@@ -30,9 +28,7 @@ permalink: archive.html
     <ul class="posts">
       {% endif %}
       {% endif %}
-      <li class="post-date">
-        {{ post.date | date: "%b %d" }} &raquo;
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      <li class="post-date">{{ post.date | date: "%b %d" }} &raquo;<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </li>
       {% endunless %}
       {% endfor %}
