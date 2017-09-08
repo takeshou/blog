@@ -11,7 +11,7 @@ permalink: archive.html
     <h2 id="{{year}}{{nmonth}}">{{ year }}/{{ month }}</h2>
     <ul class="posts">
       <li class="post-date">
-        {{ post.date | date: "%d (%a)" }} &raquo;
+        {{ post.date | date: "%b %d" }} &raquo;
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </li>
       {% else %}
@@ -31,7 +31,7 @@ permalink: archive.html
       {% endif %}
       {% endif %}
       <li class="post-date">
-        {{ post.date | date: "%d (%a)" }} &raquo;
+        {{ post.date | date: "%b %d" }} &raquo;
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </li>
       {% endunless %}
