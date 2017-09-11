@@ -15,16 +15,6 @@ layout: default
     {{ content }}
   </div>
 
-  <div>
-    <nav id="tags">
-    <ul>
-      {% for tag in page.tags %}
-      <li><a href="/blog/tags.html#tag_{{ tag }}">{{ tag }}</a></li>
-      {% endfor %}
-    </ul>
-    </nav>
-  </div>
-
   {% include disqus.html %}
 
 </article>
