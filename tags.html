@@ -9,7 +9,7 @@ permalink: tags.html
   <h2 id="tag_{{ tag[0] }}">{{ tag[0] }}</h2>
   <ul>
     {% for post in tag[1] %}
-    <li class="post-date"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> ({{ post.date | date: "%Y %b %d" }})</li>
+    <li class="post-date">{{ post.date | date: "%Y %b %d" }} &raquo;<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
 </article>
