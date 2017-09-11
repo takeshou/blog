@@ -9,6 +9,9 @@ layout: default
         <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
       </h2>
       <p class="date">
+        {% for tag in post.tags %}
+        [ <a href="/blog/tags.html#tag_{{ tag }}">{{ tag }}</a> ]
+        {% endfor %}
         {{ post.date | date: "%B %d, %Y" }}
       </p>
 
@@ -17,12 +20,6 @@ layout: default
       </div>
 
       <p class="read-more"><a href="{{ site.baseurl }}{{ post.url }}">Read more / comments</a></p>
-
-      <p class="date">
-        {% for tag in post.tags %}
-        [ <a href="/blog/tags.html#tag_{{ tag }}">{{ tag }}</a> ]
-        {% endfor %}
-      </p>
 
     </article>
   {% endfor %}
