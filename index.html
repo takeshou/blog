@@ -5,7 +5,12 @@ layout: default
 <div class="posts">
   {% for post in paginator.posts %}
     <article class="post">
-      <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+      <h2>
+        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+        {% for tag in page.tags %}
+        [ <a href="/blog/tags.html#tag_{{ tag }}">{{ tag }}</a> ]
+        {% endfor %}
+      </h2>
       <p class="date">{{ post.date | date: "%B %d, %Y" }}</p>
 
       <div class="entry">
