@@ -8,7 +8,7 @@ layout: default
     {% for tag in page.tags %}
     [ <a href="/blog/tags.html#tag_{{ tag }}">{{ tag }}</a> ]
     {% endfor %}
-    {{ page.date | date: "%B %e, %Y" }}
+    {{ page.date | date: "%b %e, %Y" }}
   </p>
 
   <div class="entry">
