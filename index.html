@@ -7,11 +7,13 @@ layout: default
     <article class="post">
       <h2>
         <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+      </h2>
+      <p class="date">
         {% for tag in post.tags %}
         [ <a href="/blog/tags.html#tag_{{ tag }}">{{ tag }}</a> ]
         {% endfor %}
-      </h2>
-      <p class="date">{{ post.date | date: "%B %d, %Y" }}</p>
+        {{ post.date | date: "%B %d, %Y" }}
+      </p>
 
       <div class="entry">
         {{ post.excerpt }}
