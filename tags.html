@@ -4,7 +4,9 @@ title: タグ一覧
 permalink: tags.html
 ---
 
-{% for tag1 in site.tags %}<p><a href="#tag_{{ tag1[0] }}">{{ tag1[0] }}</a> </p>{% endfor %}
+<ul class="memo">
+{% for tag1 in site.tags %}<li class="list"><a href="#tag_{{ tag1[0] }}">{{ tag1[0] }}</a> </li>{% endfor %}
+</ul>
 
 {% for tag in site.tags %}
 <article>
